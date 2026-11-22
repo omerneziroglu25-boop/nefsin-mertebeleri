@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a365d"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6e05e"/>
+      <stop offset="50%" stop-color="#d69e2e"/>
+      <stop offset="100%" stop-color="#b7791f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)"/>
+  <rect x="24" y="24" width="464" height="464" rx="90" fill="none" stroke="url(#goldGrad)" stroke-width="6" opacity="0.4"/>
+  <!-- Open Book Emblem -->
+  <g transform="translate(64, 120)">
+    <!-- Left Page -->
+    <path d="M192,230 C130,195 40,195 10,210 L10,60 C40,45 130,45 192,80 Z" fill="#ffffff" opacity="0.95"/>
+    <!-- Right Page -->
+    <path d="M192,230 C254,195 344,195 374,210 L374,60 C344,45 254,45 192,80 Z" fill="#ffffff" opacity="0.95"/>
+    <!-- Spine Line -->
+    <line x1="192" y1="75" x2="192" y2="235" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Decorative Lines on Left Page -->
+    <line x1="45" y1="95" x2="160" y2="95" stroke="#cbd5e0" stroke-width="5" stroke-linecap="round"/>
+    <line x1="45" y1="125" x2="160" y2="125" stroke="#cbd5e0" stroke-width="5" stroke-linecap="round"/>
+    <line x1="45" y1="155" x2="135" y2="155" stroke="#cbd5e0" stroke-width="5" stroke-linecap="round"/>
+    <!-- Decorative Lines on Right Page -->
+    <line x1="224" y1="95" x2="339" y2="95" stroke="#cbd5e0" stroke-width="5" stroke-linecap="round"/>
+    <line x1="224" y1="125" x2="339" y2="125" stroke="#cbd5e0" stroke-width="5" stroke-linecap="round"/>
+    <line x1="224" y1="155" x2="299" y2="155" stroke="#cbd5e0" stroke-width="5" stroke-linecap="round"/>
+    <!-- 8-Point Star Top -->
+    <g transform="translate(192, 15) scale(0.7)">
+      <polygon points="0,-25 7,-7 25,0 7,7 0,25 -7,7 -25,0 -7,-7" fill="url(#goldGrad)"/>
+    </g>
+  </g>
+</svg>
